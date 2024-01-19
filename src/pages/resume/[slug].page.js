@@ -64,10 +64,6 @@ export const getStaticPaths = async () => {
     .map(filePath => filePath.replace(/\.mdx?$/, ''))
     .map(slug => ({ params: { slug } }));
 
-    if (!fs.existsSync(postFilePath)) {
-      return { notFound: true };
-    }
-    
   return {
     paths,
     fallback: false,
