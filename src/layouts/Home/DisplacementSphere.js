@@ -31,7 +31,7 @@ const springConfig = {
 
 export const DisplacementSphere = props => {
   const theme = useTheme();
-  const { rgbBackground, themeId, colorWhite } = theme;
+  const { rgbBackground, themeId, colorWhite = "#7851a9" } = theme;
   const start = useRef(Date.now());
   const canvasRef = useRef();
   const mouse = useRef();
