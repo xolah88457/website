@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const CYCLES_PER_LETTER = 10;
-const SHUFFLE_TIME = 40;
+const SHUFFLE_TIME = 30;
 const CHARS = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨーラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポ";
 
 export const WordRotate = ( props ) => {
