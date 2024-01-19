@@ -6,11 +6,7 @@ export const navLinks = [
     {
         label: 'Resume',
         pathname: '/resume',
-    },
-    {
-      label: 'Ventures',
-          pathname: '/ventures',
-    },
+    }
 ];
 
 export const socialLinks = [
