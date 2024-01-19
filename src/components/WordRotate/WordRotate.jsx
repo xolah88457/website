@@ -7,7 +7,7 @@ const CHARS = "アイウエオカキクケコサシスセソタチツテトナ�
 
 export const WordRotate = ( props ) => {
   // Ensure that TARGET_TEXT is always a string
-  const { TARGET_TEXT } = props
+  const { TARGET_TEXT } = props;
   const intervalRef = useRef(null);
   const [text, setText] = useState(TARGET_TEXT);
 
@@ -84,4 +84,4 @@ export const WordRotate = ( props ) => {
       />
     </motion.button>
   );
-}
+};
