@@ -8,10 +8,11 @@ import readingTime from 'reading-time';
 import rehypeImgSize from 'rehype-img-size';
 import rehypeMinify from 'rehype-preset-minify';
 import rehypeSlug from 'rehype-slug';
-import { POSTS_PATH, postFilePaths } from '../../utils/mdx';
+import { POSTS_PATH } from '../../utils/mdx';
 import { formatTimecode } from '../../utils/timecode';
 import rehypePrism from '@mapbox/rehype-prism';
 import { generateOgImage } from './og-image';
+import { postFilePaths } from '../../utils/mdx';
 
 export default function PostPage({ frontmatter, code, timecode, ogImage }) {
   const MDXComponent = useMemo(() => getMDXComponent(code), [code]);
