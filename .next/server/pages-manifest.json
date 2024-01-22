@@ -1,8 +1,12 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
+  "/404": "pages/404.html",
+  "/": "pages/index.html",
+  "/resume/ResumeContent": "pages/resume/ResumeContent.html",
+  "/_error": "pages/_error.js",
   "/projects": "pages/projects.js",
-  "/404": "pages/404.js"
+  "/resume": "pages/resume.js",
+  "/projects/[slug]": "pages/projects/[slug].js",
+  "/resume/[slug]": "pages/resume/[slug].js"
 }
