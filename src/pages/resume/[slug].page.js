@@ -25,6 +25,13 @@ export default function PostPage({ frontmatter, code, timecode, ogImage }) {
   );
 }
 
+PostPage.propTypes = {
+  frontmatter: PropTypes.object.isRequired,
+  code: PropTypes.string.isRequired,
+  timecode: PropTypes.string.isRequired,
+  ogImage: PropTypes.string.isRequired,
+};
+
 export const getStaticProps = async ({ params }) => {
   const postFilePath = path.join(POSTS_PATH, `${params.slug}.mdx`);
   const source = fs.readFileSync(postFilePath, 'utf-8');

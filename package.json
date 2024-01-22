@@ -45,6 +45,7 @@
     "next": "^12.2.5",
     "next-compose-plugins": "^2.2.1",
     "pdfjs-dist": "^4.0.379",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "svgo": "^3.2.0",
