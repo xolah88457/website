@@ -53,8 +53,9 @@
     "three-stdlib": "^2.18.1"
   },
   "scripts": {
+    
     "dev": "next dev",
-    "build": "next build && next export -o build/",
+    "build": "babel src -d dist",
     "start": "next start",
     "test": "echo 'write some tests'"
   },
