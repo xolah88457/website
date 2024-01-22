@@ -13,6 +13,7 @@ import { formatTimecode } from '../../utils/timecode';
 import rehypePrism from '@mapbox/rehype-prism';
 import { generateOgImage } from './og-image';
 import { postFilePaths } from '../../utils/mdx';
+import PropTypes from 'prop-types';
 
 export default function PostPage({ frontmatter, code, timecode, ogImage }) {
   const MDXComponent = useMemo(() => getMDXComponent(code), [code]);
