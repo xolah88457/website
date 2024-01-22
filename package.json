@@ -64,7 +64,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "npx babel src -d dist",
+    "build": "next build",
     "start": "next start",
     "test": "echo 'write some tests'"
   },
