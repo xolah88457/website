@@ -45,7 +45,6 @@ const App = ({ Component, pageProps }) => {
                 rel="canonical"
                 href={`${process.env.NEXT_PUBLIC_WEBSITE_URL}${canonicalRoute}`}
               />
-              <Analytics />
             </Head>
             <VisuallyHidden
               showOnFocus
@@ -82,5 +81,19 @@ const App = ({ Component, pageProps }) => {
     </AppContext.Provider>
   );
 };
+
+export function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <head>
+        <title>Next.js</title>
+      </head>
+      <body>
+        {children}
+        <Analytics />
+      </body>
+    </html>
+  );
+}
 
 export default App;
