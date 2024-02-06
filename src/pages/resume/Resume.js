@@ -52,9 +52,7 @@ const ArticlesPost = ({
             {/* ... existing Image component */}
           </div>
         )}
-        <RouterLink href={`/resume/${slug}`} scroll={false}>
-          {/* ... existing link with post details */}
-        </RouterLink>
+        
       </article>
     );
   };
