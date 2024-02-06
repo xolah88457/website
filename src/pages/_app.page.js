@@ -14,6 +14,7 @@ import { useRouter } from 'next/router';
 import { Fragment, createContext, useEffect, useReducer } from 'react';
 import { msToNum } from '../utils/style';
 import { ScrollRestore } from '../layouts/App/ScrollRestore';
+import { Analytics } from '@vercel/analytics/react';
 
 export const AppContext = createContext({});
 
@@ -44,6 +45,7 @@ const App = ({ Component, pageProps }) => {
                 rel="canonical"
                 href={`${process.env.NEXT_PUBLIC_WEBSITE_URL}${canonicalRoute}`}
               />
+              <Analytics />
             </Head>
             <VisuallyHidden
               showOnFocus
