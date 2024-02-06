@@ -82,17 +82,12 @@ const App = ({ Component, pageProps }) => {
   );
 };
 
-export function RootLayout({ children }) {
+export function MyApp({ Component, pageProps }) {
   return (
-    <html lang="en">
-      <head>
-        <title>Next.js</title>
-      </head>
-      <body>
-        {children}
-        <Analytics />
-      </body>
-    </html>
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
   );
 }
 
