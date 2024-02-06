@@ -15,6 +15,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/404": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -35,10 +40,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/projects.js"
     ],
-    "/resume": [
+    "/projects/[slug]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/resume.js"
+      "static/chunks/pages/projects/[slug].js"
     ]
   },
   "ampFirstPages": []
