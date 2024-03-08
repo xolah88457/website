@@ -3,7 +3,7 @@ import { Intro } from '../../layouts/Home/Intro';
 import { Profile } from '../../layouts/Home/Profile';
 
 import { useEffect, useRef, useState } from 'react';
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 import styles from './Home.module.css';
 
 const disciplines = ['Software', 'FullStack', 'Game', 'Web', 'Desktop'];
