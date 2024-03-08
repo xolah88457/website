@@ -1,12 +1,16 @@
 export const navLinks = [
   {
+    label: 'Skills',
+    pathname: '/skill',
+  },
+  {
     label: 'Projects',
-        pathname: '/projects',
-    },
-    {
-        label: 'Resume',
-        pathname: '/resume',
-    }
+    pathname: '/projects',
+  },
+  {
+    label: 'Resume',
+    pathname: '/resume',
+  },
 ];
 
 export const socialLinks = [
@@ -17,12 +21,12 @@ export const socialLinks = [
   },
   {
     label: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/ryan-nasiri-1a1323261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    url: 'https://www.linkedin.com/in/ryan-nasiri-1a1323261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     icon: 'figma',
   },
   {
     label: 'Github',
-      url: 'https://github.com/xolah88457',
+    url: 'https://github.com/xolah88457',
     icon: 'github',
   },
 ];

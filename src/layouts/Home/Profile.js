@@ -20,12 +20,23 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Welcome!" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-    I am Ryan Nasiri, a student at York University pursuing an Honours degree in Computer Science/Information Technology.
-    I am actively seeking internship opportunities for the summer of 2024.
+      I am Ryan Nasiri, a student at York University pursuing an Honours degree in
+      Computer Science/Information Technology. I am actively seeking internship
+      opportunities for the summer of 2024.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-    As a full-stack developer, I offer a comprehensive skill set in both front-end and back-end development, ensuring the creation of dynamic, responsive websites and applications. My expertise includes designing user interfaces, optimizing user experience, and integrating APIs, alongside proficiency in server-side programming, database management, and system architecture. I excel in developing end-to-end solutions, managing complex projects, and collaborating across departments to meet diverse needs. My commitment to quality assurance, scalability, and performance optimization ensures the delivery of robust, efficient software products.{' '}
-      <Link href="https://www.linkedin.com/in/ryan-nasiri-1a1323261/details/experience/">My experience</Link> (Web, Software, Game development, and more importantly teaching.)
+      As a full-stack developer, I offer a comprehensive skill set in both front-end and
+      back-end development, ensuring the creation of dynamic, responsive websites and
+      applications. My expertise includes designing user interfaces, optimizing user
+      experience, and integrating APIs, alongside proficiency in server-side programming,
+      database management, and system architecture. I excel in developing end-to-end
+      solutions, managing complex projects, and collaborating across departments to meet
+      diverse needs. My commitment to quality assurance, scalability, and performance
+      optimization ensures the delivery of robust, efficient software products.{' '}
+      <Link href="https://www.linkedin.com/in/ryan-nasiri-1a1323261/details/experience/">
+        My experience
+      </Link>{' '}
+      (Web, Software, Game development, and more importantly teaching.)
     </Text>
   </Fragment>
 );
