@@ -4,7 +4,6 @@ import { Profile } from '../../layouts/Home/Profile';
 
 import { useEffect, useRef, useState } from 'react';
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import styles from './Home.module.css';
 
 const disciplines = ['Software', 'FullStack', 'Game', 'Web', 'Desktop'];
@@ -70,7 +69,6 @@ export const Home = () => {
         id="details"
       />
       <Analytics />
-      <SpeedInsights />
       <Footer />
     </div>
   );
