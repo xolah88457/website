@@ -2,9 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/skill": "pages/skill.js",
-  "/": "pages/index.js",
-  "/projects": "pages/projects.js",
-  "/404": "pages/404.js",
-  "/projects/[slug]": "pages/projects/[slug].js"
+  "/skill": "pages/skill.js"
 }
