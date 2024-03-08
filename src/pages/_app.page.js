@@ -1,6 +1,5 @@
 import '../layouts/App/reset.css';
 import '../layouts/App/global.css';
-
 import { Navbar } from '../components/Navbar';
 import { ThemeProvider } from '../components/ThemeProvider';
 import { tokens } from '../components/ThemeProvider/theme';

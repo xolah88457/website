@@ -97,7 +97,6 @@
 .post {
   --featuredPostPadding: var(--space5XL);
   --featuredPostClip: polygon(0 0, calc(100% - 32px) 0, 100% 32px, 100% 100%, 0 100%);
-  --postBorder: 1px solid rgb(var(--rgbText) / 0.1);
 
   position: relative;
   isolation: isolate;

@@ -45,7 +45,7 @@ export const Skill = ({ posts }) => {
       <Section className={styles.content}>
         <header className={styles.header}>
           <Heading className={styles.heading} level={5} as="h1">
-            <WordRotate TARGET_TEXT="My Hard Skills" />
+            <WordRotate TARGET_TEXT="Hard Skills" />
           </Heading>
           <Barcode />
         </header>

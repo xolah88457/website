@@ -71,7 +71,7 @@ export const Resume = ({ posts }) => {
         <Section className={styles.content}>
           <header className={styles.header}>
             <Heading className={styles.heading} level={5} as="h1">
-              <WordRotate TARGET_TEXT="My Resume" />
+              <WordRotate TARGET_TEXT="Resume" />
             </Heading>
             <Barcode />
           </header>
