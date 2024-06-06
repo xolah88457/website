@@ -46,7 +46,6 @@
   }
 }
 
-
 .header {
   padding-top: var(--spaceS);
   padding-bottom: var(--space2XL);
@@ -70,6 +69,15 @@
 .heading {
   white-space: nowrap;
   overflow: hidden;
+  font-size: 2em;
+
+  @media (--mediaMobile) {
+    font-size: 1.5em;
+  }
+
+  @media (--singleColumnWidth) {
+    font-size: 1.75em;
+  }
 }
 
 .list {
